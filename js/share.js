@@ -1,5 +1,5 @@
-const kakaoShare = () => {
-  Kakao.Share.createDefaultButton({
+function kakaoShare() {
+  Kakao.Link.createDefaultButton({
     container: '#kakaotalk-sharing-btn',
     objectType: 'feed',
     content: {
